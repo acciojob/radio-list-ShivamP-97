@@ -2,3 +2,6 @@
 .input:nth-child(even){
 	color: red;
 }
+.input:nth-child(even)+label{
+	color: red;
+}
